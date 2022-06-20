@@ -1,8 +1,6 @@
 from math import floor
 
 p = 61
-ka = 35
-kb = 18
 
 def add(n, m):
     return (n + m) % p
