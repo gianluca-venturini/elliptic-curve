@@ -154,10 +154,10 @@ if __name__ == '__main__':
     print('Alice public value', pub_a)
     print('Bob public value', pub_b)
 
-    print('Alice and bob exchange their public values')
+    print('Alice and Bob exchange their public values')
 
-    key_a = calculate_fast_mul_point(kb, pub_a, table_inv)
-    key_b = calculate_fast_mul_point(ka, pub_b, table_inv)
+    key_b = calculate_fast_mul_point(kb, pub_a, table_inv)
+    key_a = calculate_fast_mul_point(ka, pub_b, table_inv)
 
     assert key_a == key_b
     print('Alice finds the key', key_a)
