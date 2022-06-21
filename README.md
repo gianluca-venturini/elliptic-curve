@@ -9,6 +9,7 @@ The operations are executed on the toy Curve61 $y^2 = x^3 + 9*x + 1$ so I can pl
 - [The Animated Elliptic Curve](https://curves.ulfheim.net/)
 - [Polynomial Roots Sum](https://www.theproblemsite.com/reference/mathematics/algebra/polynomials/higher-degree-coefficients-roots)
 - [Elliptic curve point addition](https://www.youtube.com/watch?v=XmygBPb7DPM)
+- [Curve25519 paper](https://cr.yp.to/ecdh/curve25519-20060209.pdf)
 
 ### Run
 The example is written in python3. You can run it with:
